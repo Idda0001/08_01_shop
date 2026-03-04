@@ -8,7 +8,7 @@ fetch(`https://kea-alt-del.dk/t7/api/categories`)
     categories.forEach(
       (element) =>
         (markup += `
-        <a href="list.html?category=${element.category}" class="button">${element.category}</a>
+        <a href="productlist.html?category=${element.category}" class="button">${element.category}</a>
 `),
     );
     grid.innerHTML = markup;

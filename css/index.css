@@ -27,6 +27,12 @@ a {
     inset 2px 2px 5px #4e594c54,
     inset -2px -2px 5px #c5dec2;
 }
+.shoppen {
+  padding: 0.75rem;
+  color: #648061;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
 
 @media (min-width: 800px) {
   .forside_katagorier {
@@ -40,5 +46,9 @@ a {
   }
   .button {
     padding: 2.5rem;
+  }
+  .shoppen {
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 2rem;
   }
 }
