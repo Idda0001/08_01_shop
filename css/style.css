@@ -60,6 +60,9 @@ select,
 }
 
 /*************************************/
+main {
+  margin-bottom: 4rem;
+}
 
 body {
   background: #e3f0e2;
@@ -75,6 +78,7 @@ header {
   align-items: center;
   height: 15vh;
   margin: 2rem;
+  justify-content: center;
 }
 .header_button {
   background-color: #c5dec2;
@@ -103,6 +107,9 @@ header a {
   }
   .header_button {
     padding: 1rem 2rem 1rem 2rem;
+    position: absolute;
+    top: 15%;
+    left: 10%;
   }
   header {
     height: 20vh;
