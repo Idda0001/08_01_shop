@@ -1,0 +1,114 @@
+/********reset*********/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  interpolate-size: allow-keywords;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2 {
+  line-height: 1.25;
+}
+
+p,
+li {
+  text-wrap: pretty;
+}
+
+img,
+svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+label {
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  font-size: max(1em, 16px);
+}
+
+textarea {
+  resize: none;
+  min-height: 4lh;
+}
+
+legend {
+  padding: 0;
+}
+
+select,
+::picker(select) {
+  appearance: base-select;
+}
+
+/*************************************/
+
+body {
+  background: #e3f0e2;
+  font-family: "helvetica neue", arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 15vh;
+  margin: 2rem;
+}
+.header_button {
+  background-color: #c5dec2;
+  padding: 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow:
+    -2px -2px 5px #f3fbefd9,
+    2px 2px 5px #4e594c60;
+}
+.header_button:hover {
+  box-shadow:
+    inset 2px 2px 5px #4e594c54,
+    inset -2px -2px 5px #c5dec2;
+}
+header a {
+  text-decoration: none;
+  color: #648061;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+@media (min-width: 800px) {
+  body {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  .header_button {
+    padding: 1rem 2rem 1rem 2rem;
+  }
+  header {
+    height: 20vh;
+    margin: 0 auto;
+  }
+  header a {
+    font-size: 1.5rem;
+  }
+}

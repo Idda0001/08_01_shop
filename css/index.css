@@ -1,0 +1,44 @@
+.forside_katagorier {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 2rem;
+  gap: 2rem;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #648061;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.button {
+  background-color: #c5dec2;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow:
+    -2px -2px 5px #f3fbefd9,
+    2px 2px 5px #4e594c60;
+}
+
+.button:hover {
+  box-shadow:
+    inset 2px 2px 5px #4e594c54,
+    inset -2px -2px 5px #c5dec2;
+}
+
+@media (min-width: 800px) {
+  .forside_katagorier {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+  }
+  a {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .button {
+    padding: 2.5rem;
+  }
+}
