@@ -76,7 +76,7 @@ a {
 header {
   display: flex;
   align-items: center;
-  height: 15vh;
+  height: 12vh;
   margin: 2rem;
   justify-content: center;
 }
@@ -108,7 +108,7 @@ header a {
   .header_button {
     padding: 1rem 2rem 1rem 2rem;
     position: absolute;
-    top: 15%;
+    top: 10%;
     left: 10%;
   }
   header {
